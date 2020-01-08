@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=1024">
+<meta name="keywords" content="詹雯守作品集">
+<meta name="description" content="詹雯守作品集">
+<title>詹雯守作品集</title>
+<link href="favicon.ico" rel="icon">
+<link href="favicon.ico" rel="shortcut icon">
+<link href="apple-touch-icon.png" rel="apple-touch-icon">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/perfect-scrollbar-projects.css" rel="stylesheet">
+<script src="js/plugins/jQuery/jquery-1.8.3.min.js"></script>
+<script src="js/plugins/jQuery/jquery.mousewheel.js"></script>
+<script src="js/plugins/jQuery/perfect-scrollbar.js"></script>
+<script src="js/plugins/jQuery/jquery.easing-1.3.min.js"></script>
+<script src="js/plugins/jQuery/script-3.0.6.min.js"></script>
+<script src="js/common.js"></script>
+
+<script>
+jQuery(document).ready(function(e) {
+	
+	// 卷軸效果
+	"use strict";
+	jQuery('#subScroll').perfectScrollbar({
+		suppressScrollX: true
+	});
+	
+	// Big Photo
+	var buttons = {
+		previous: jQuery('.button-previous'),
+		next:jQuery('.button-next')
+	};
+	
+	jQueryobj = jQuery('.prodSlideWrap').lofJSidernews({
+		interval: 5000,
+		easing: 'easeInOutQuad',
+		duration: 600,
+		auto: true,
+		maxItemDisplay: 6,
+		startItem: 0,
+		navPosition: 'horizontal', // horizontal
+		navigatorHeight: 54,
+		navigatorWidth: 93, // 包括小圖中間間隔寬度
+		mainWidth: 600,
+		buttons: buttons
+	});
+	
+});
+</script>
+</head>
+<body class="iFooterBg">
+  <div id="gHeader">
+	  <div class="gHeaderWrap">
+		<h1 title="詹雯守作品集"><a href="index.php" title="詹雯守作品集"><!--<img src="images/logo.png" width="265" height="122" alt="佳豐機械設計工業股份有限公司">--></a></h1>
+		<div class="menuBox">
+		  <div class="lang">
+			<!--<div class="en"><a href="../en" title="">EN</a></div>
+			<div class="ch"><a href="./" title="">CH</a></div>-->
+		  </div>
+		  <div class="clearer"></div>
+		  <div class="gMenu">
+			<ul>
+			  <li class="m1"><span class="bg"></span><a href="work_1.php" title="平面與插畫作品">平面與插畫作品</a></li>
+			  <li class="m2"><span class="bg"></span><a href="work_2.php" title="網頁作品">網頁作品</a></li>
+			  <li class="m3"><span class="bg"></span><a href="about.php" title="關於我">關於我</a></li>
+			  <!--<li class="m4"><span class="bg"></span><a href="contact.php" title="聯絡我們">關於我們</a></li>-->
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	  
+  <div id="iBody">
+  	<div class="projectWrap">
+    	<div class="projectViewL">
+      	<!-- 開始 -->
+        <div class="prodSlideWrap">
+          <div class="imgWrap">
+            <!-- Button -->
+            <div class="button-previous">Previous</div>
+            <div class="button-next">Next</div>
+            <div class="button-control"><span></span></div>
+            <div id="bannerWrap">
+              <!-- Loding -->
+              <div class="preload"><div></div></div>
+              <!-- Big --> 
+              <div class="main-slider-content">
+                <ul class="sliders-wrap-inner">
+                  <li><a href="http://www.taiwan-trim.com.tw/" target="_blank" title="多寧"><img src="images/work_2_b_1.jpg" width="600" height="358" alt="*"></a></li>
+                  <li><a href="http://www.cherry-yo.com.tw/about_cherry_3.php" target="_blank" title="櫻桃柚園_柚園角隅"><img src="images/work_2_b_2.jpg" width="600" height="358" alt="*"></a></li>
+                  <li><a href="http://www.te-chang.com/" target="_blank" title="德昌藥局"><img src="images/work_2_b_3.jpg" width="600" height="358" alt="*"></a></li>
+                  <li><a href="http://www.forestschool.com.tw/" target="_blank" title="森林小學"><img src="images/work_2_b_4.jpg" width="600" height="358" alt="*"></a></li>
+                  <li><a href="http://www.wu-tau.com/" target="_blank" title="悟饕"><img src="images/work_2_b_5.jpg" width="600" height="358" alt="*"></a></li>
+                  <li><a href="http://www.shingjih.com.tw/" target="_blank" title="杏記香料"><img src="images/work_2_b_6.jpg" width="600" height="358" alt="*"></a></li>
+                  <li><a href="http://www.powergood.com/en/" target="_blank" title="世模科技"><img src="images/work_2_b_7.jpg" width="600" height="358" alt="*"></a></li>
+                  
+                </ul>  	
+              </div>
+              <!-- Small -->
+              <div class="navigator-content">
+                <div class="navigator-wrapper">
+                  <ul class="navigator-wrap-inner">
+                    <li><div><img src="images/work_2_s_1.jpg" width="90" height="54" alt="*"></div></li>
+                    <li><div><img src="images/work_2_s_2.jpg" width="90" height="54" alt="*"></div></li>
+                    <li><div><img src="images/work_2_s_3.jpg" width="90" height="54" alt="*"></div></li>
+                    <li><div><img src="images/work_2_s_4.jpg" width="90" height="54" alt="*"></div></li>
+                    <li><div><img src="images/work_2_s_5.jpg" width="90" height="54" alt="*"></div></li>
+                    <li><div><img src="images/work_2_s_6.jpg" width="90" height="54" alt="*"></div></li>
+                    <li><div><img src="images/work_2_s_7.jpg" width="90" height="54" alt="*"></div></li>
+                  </ul>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <!-- END -->
+      </div>
+      <div class="projectViewR">
+      	<div class="tiBox">
+        	<div class="date"></div>
+          <div class="ti">網頁相關作品</div>
+        </div>
+        <div id="subScroll" class="projectViewScr">
+          <div class="projectViewBox">
+          	這邊挑選出一些之前經手完成已上線的網頁作品，每個圖片都可以點擊並連結到該網頁喔。<br><br>
+          	在工作這段期間學到很多網站相關知識，從企劃那邊接到企劃書開始到完成整個網站前端視覺部分；從內頁排版到切版然後製作網頁效果為止。雖然很辛苦，但完成一個網站的時候那種成就感是無法形容的。<br><br>
+            剛開始的時候也遇到許多挫折，從不會網頁語言，開始學習HTML和CSS來切版，從PSD檔案用網頁語言變成PHP檔案，然後還接觸一些JS，把一些效果套上去自己的版型，或是寫一些簡單的效果。慢慢克服問題，遇到不會就想辦法問，或是自己慢慢摸索。
+            
+          </div>
+        </div>
+        <div class="back"><a href="index.php" title=""></a></div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </div>
+  
+  <div id="pFooter">詹雯守作品集&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;&nbsp;2015&nbsp;Chan,Wen-Shou&nbsp;portfolio&nbsp;website.</div>
+</body>
+</html>
